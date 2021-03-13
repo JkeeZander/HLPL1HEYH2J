@@ -1,7 +1,7 @@
 #include "std_lib_facilities.h"
 
 constexpr char number = '8';
-constexpr char quit = 'x';
+constexpr char quit = 'x';  // chapter 6, drill 2
 constexpr char print = ';';
 constexpr char name = 'a';
 constexpr char let = 'L';
@@ -279,8 +279,8 @@ void calculate(){
 int main() 
 
 try {
-	cout<<"Welcome to our simple calculator. Please enter expressions using floating-point numbers."<<endl;
-	cout<<"The operators available are: +,-,*,/,%"<<endl;
+	cout<<"Welcome to our simple calculator. Please enter expressions using floating-point numbers."<<endl; // chapter 6 , drill 4
+	cout<<"The operators available are: +,-,*,/,%"<<endl;  // Chapter 6 , drill 5
 
 	define_name("pi", 3.1415926535);
 	define_name("e", 2.7182818284);
