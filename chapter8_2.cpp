@@ -49,4 +49,4 @@ swap_cr(dx,dy);
 return 0;
 }
 
-//ANSWER: THe ones that are not compiled are the ones that have const reference to the number. SInce they are constant they cannot change the value of the referenced number. They would create error at compie time. Others will compile and swap the values successfully/
+//ANSWER: THe ones that are not compiled are the ones that have const reference to the number. SInce they are constant they cannot change the value of the referenced number. They would create error at compie time. Others will compile but the one with int a,int b arguments will not swap values because it works with the copies of the original values and not original values. swap_r will swap the values and compile successfully.
